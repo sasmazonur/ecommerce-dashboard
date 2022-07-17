@@ -1,0 +1,57 @@
+.newproduct{
+    flex:4;
+    margin-left: 20px;
+}
+
+.newproduct-form{
+    flex-wrap: wrap;
+}
+
+.newproduct-item{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newproduct-item>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+}
+
+.newproduct-item>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.newproduct-gender>input{
+    margin-top:15px;
+}
+
+.newproduct-gender>label{
+    margin:10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newproduct-select{
+    height: 40px;
+    border-radius: 5px;
+}
+
+.newproduct-button{
+    width: 200px;
+    border:none;
+    background-color:darkblue;
+    color:white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
